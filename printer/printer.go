@@ -1,5 +1,7 @@
 package printer
 
+import "fmt"
+
 func hello() {
-	println("I m from printer package")
+	fmt.Println("I m from printer package")
 }
